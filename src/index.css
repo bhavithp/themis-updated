@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Quicksand Medium','Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif; */
+  
+    font-family: Quicksand, Questrial, 'sans-serif';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  .footer {
+    height: 36px;
+    background: #003E62;
+    margin-bottom: 0px;
+    margin-top: 5%;
+    
+  }
+  
+  .benchmark-education {
+    height: 24px;
+    color: #FFFFFF;
+    font-family: Quicksand;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin: 10px
+  }
+  
+  
+  .field_label {
+    font-family: Quicksand;
+    font-weight: 700;
+  
+  }
+  
+  p {
+    margin: 0;
+  }

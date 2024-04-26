@@ -1,0 +1,31 @@
+## Pull-request Checklist
+
+- [ ] Is the code unit tested? 
+- [ ] Does the unit test cover all the code produced?
+- [ ] Does the functionality achieve all the acceptance criteria? 
+    - [ ] Does the story have the latest acceptance criteria? 
+    - [ ] UI: Does it look like the provided design? 
+- [ ] Is there API changes? 
+    - [ ] Has it been documented in swagger? 
+- [ ] Does the code follow DRY and SOLID Principles? 
+- [ ] Is this implementation easy to follow?
+    - [ ] Will these code changes affect other parts of the application? 
+    - [ ] Can the code be refactored in a way to make it reusable? 
+- [ ] Are there any database changes in this code? 
+    - [ ] Have you updated the story with the changes? 
+- [ ] Have you tested the code in your personal environment? 
+- [ ] Are variable and method names descriptive? 
+- [ ] Has proper error handling and logic guards been implemented? 
+    - [ ] Are try catches implemented? 
+    - [ ] Have you verified that proper key checks are implemented before using a value on an object? 
+    - [ ] Are we sending useful logs to the correct logging systems, i.e. error logs or database error log tables? 
+    - [ ] Have you verified that the logs does not contain information that can lead to a security breach? 
+    - [ ] Have you verified that the logs does not contain information that can lead to a violation of customer privacy laws? 
+    - [ ] Are try catches implemented? 
+- [ ] Have development console logs been removed from the code? 
+- [ ] Have you verified if CSS changes are encapsulated?
+- [ ] Have you verified that the console contains only useful information? I.e. 404 errors showing in the console 
+- [ ] Are there any changes to configurations? 
+    - [ ] Have you updated the story with these changes? 
+- [ ] Have you verified that secrets and private credentials are not openly available in the code? 
+- [ ] Is the code production ready?

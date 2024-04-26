@@ -1,0 +1,31 @@
+.customSuccessAlert{
+    margin-top: 25px; 
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;    
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.badge{
+    width: auto;
+    height: 25px;
+    font-size: large;
+}
+.badgeGroup{
+    padding-top: 50px;
+}
+.badgeSecondary{
+    width: auto;
+    height: 25px;
+    font-size: large;
+    background: #6c757d;
+}
+.badgeSuccess{
+    width: auto;
+    height: 25px;
+    font-size: large;
+    background: #98FB98;
+    color: black;
+}

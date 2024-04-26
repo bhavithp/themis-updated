@@ -1,0 +1,10 @@
+.customSpinner{
+    position: relative;
+}
+.spinnerCss{
+    height: 50px;
+    width: 50px;
+}
+.backdropSpinner {
+    z-index: 101;
+}

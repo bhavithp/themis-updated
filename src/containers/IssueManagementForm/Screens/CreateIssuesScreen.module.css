@@ -1,0 +1,77 @@
+.issueDataContainer {
+    background: lightgray;
+    border: darkgrey;
+    border-radius: 10px;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 10px;
+}
+
+.filterbutton {
+    display: block;
+    position: absolute;
+    padding: 10px;
+    background-color: none;
+    background: none;
+    color: #fff;
+    width: 6.7em;
+    font-size: 1.3em;
+    left: 75px;
+    text-shadow: 0 0 3px #000;
+    cursor: pointer;
+}
+
+.queueListContainer {
+    background: #F5F5F5;
+    padding: 10px;
+    height: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+.listGroup {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    left: 0;
+}
+
+.totalComponent {
+    text-align: center;
+}
+
+.editSymbol {
+    font-size: 54px;
+}
+
+.customAlert {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.issuetableInQueueList {
+    table-layout: fixed;
+    width: 100%;
+}
+
+.hrLine {
+    border: 1px solid #003E62;
+    width: 70%;
+}
+
+.paper {
+    padding: 20px;
+    text-align: center;
+}

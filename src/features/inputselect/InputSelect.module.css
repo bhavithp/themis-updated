@@ -1,0 +1,9 @@
+.selectDropdown {
+    width: 60%;
+    margin: auto;        
+}
+.span {
+    display: block;
+    overflow: hidden;
+    padding: 0 4px 0 6px
+}

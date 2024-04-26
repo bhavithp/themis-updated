@@ -1,0 +1,43 @@
+.label_position{
+    position: absolute;
+  left: 350px;
+  padding-top: 25px;
+}
+.selectCompContinueButton{
+  display: flex;
+    justify-content: flex-end;
+    right: 0;
+    background: linear-gradient(180deg, #001F31 0%, #003E62 100%);    
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 12px;
+    right: 95px;
+    position: initial;
+}
+.invalidCodesAlert{
+  text-align: left;
+  margin: auto;
+  width: 50%;
+  padding-left: 5px;
+  padding-bottom: 25px;
+}
+
+.invalidCodesAlert h5 {
+  text-align: center;
+}
+.spinner{
+  margin: 450px;
+}
+.badge{
+  width: auto;
+  height: 25px;
+  font-size: large;
+}
